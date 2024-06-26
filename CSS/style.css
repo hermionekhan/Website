@@ -3,6 +3,11 @@
     src: url(../CSS/Assets/Tuwir.ttf);
 }
 
+@font-face {
+    font-family: NunitoReg;
+    src: url(../CSS/Assets/Nunito-regular.ttf);
+}
+
 /*UNIVERSAL*/
 * {
     margin: 0px 0px;
@@ -63,7 +68,7 @@ header {
 
 .gallery-para {
     color: white;
-    font-family: PoppinsReg;
+    font-family: NunitoReg;
     font-size: 1rem;
     margin-top: 5vh;
     width: 40vw;
@@ -109,7 +114,7 @@ header {
 .heroic-capt,
 .maverick-capt {
     color: white;
-    font-family: PoppinsReg;
+    font-family: NunitoReg;
     font-size: 1rem;
     display: flex;
     margin-top: 3%;
@@ -119,7 +124,7 @@ header {
 /*PROJECTS*/
 .projects-text {
     color: white;
-    font-family: PoppinsReg;
+    font-family: NunitoReg;
     font-size: 1rem;
     margin-top: 5vh;
 }
@@ -136,7 +141,7 @@ header {
 /*CONTACT*/
 .contact-title {
     color: white;
-    font-family: PoppinsBold;
+    font-family: Tuwir;
     font-size: 1.5rem;
     margin-bottom: 1%;
     margin-top: 10vh;
@@ -144,7 +149,7 @@ header {
 
 .contact-para {
     color: white;
-    font-family: PoppinsReg;
+    font-family: NunitoReg;
     font-size: 1rem;
 }
 
@@ -153,7 +158,7 @@ header {
 /*PROJECTS WEBSITES*/
 .web-exp {
     color: white;
-    font-family: PoppinsReg;
+    font-family: NunitoReg;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
@@ -162,7 +167,7 @@ header {
 
 .back-button {
     color: white;
-    font-family: PoppinsReg;
+    font-family: NunitoReg;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
