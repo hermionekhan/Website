@@ -48,13 +48,25 @@ header {
     text-decoration: none;
     color: black;
     font-family: Tuwir;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: 0.05s;
 }
 /*UNIVERSAL*/
 
 /*INDEX*/
+.about-title {
+    color: black;
+    font-family: Tuwir;
+    font-size: 2rem;
+    margin-top: 5%;
+}
 
+.about-para {
+    color: black;
+    font-family: NunitoReg;
+    padding: 2% 0%;
+    font-size: 1rem;
+}
 /*INDEX*/
 
 /*DIGITAL GALLERY*/
