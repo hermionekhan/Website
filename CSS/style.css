@@ -1,16 +1,16 @@
 @font-face {
     font-family: Tuwir;
-    src: url(../CSS/Assets/Tuwir.ttf);
+    src: url(CSS/Assets/Tuwir.ttf);
 }
 
 @font-face {
     font-family: PoppinsReg;
-    src: url(../CSS/Assets/Poppins-Regular.ttf);
+    src: url(CSS/Assets/Poppins-Regular.ttf);
 }
 
 @font-face {
     font-family: LubGrotto;
-    src: url(../CSS/Assets/LubGrotto.ttf);
+    src: url(CSS/Assets/LubGrotto.ttf);
 }
 
 /*UNIVERSAL*/
