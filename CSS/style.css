@@ -51,10 +51,6 @@ header {
     font-size: 1.2rem;
     transition: 0.05s;
 }
-
-.menu ul a:hover {
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
 /*UNIVERSAL*/
 
 /*INDEX*/
@@ -67,7 +63,7 @@ header {
 }
 
 .gallery-para {
-    color: white;
+    color: black;
     font-family: NunitoReg;
     font-size: 1rem;
     margin-top: 5vh;
@@ -113,7 +109,7 @@ header {
 .whisper-capt,
 .heroic-capt,
 .maverick-capt {
-    color: white;
+    color: black;
     font-family: NunitoReg;
     font-size: 1rem;
     display: flex;
@@ -123,7 +119,7 @@ header {
 
 /*PROJECTS*/
 .projects-text {
-    color: white;
+    color: black;
     font-family: NunitoReg;
     font-size: 1rem;
     margin-top: 5vh;
@@ -140,7 +136,7 @@ header {
 
 /*CONTACT*/
 .contact-title {
-    color: white;
+    color: black;
     font-family: Tuwir;
     font-size: 1.5rem;
     margin-bottom: 1%;
@@ -148,48 +144,9 @@ header {
 }
 
 .contact-para {
-    color: white;
+    color: black;
     font-family: NunitoReg;
     font-size: 1rem;
 }
 
 /*CONTACT*/
-
-/*PROJECTS WEBSITES*/
-.web-exp {
-    color: white;
-    font-family: NunitoReg;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
-}
-
-.back-button {
-    color: white;
-    font-family: NunitoReg;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    text-decoration: underline;
-    margin-top: 2vh;
-}
-
-.back-button:hover {
-    color: grey;
-    animation-delay: 0.5s;
-}
-
-.bb-link {
-    text-decoration: none;
-}
-
-/*PROJECTS WEBSITES*/
-
-/*PROJECTS 3D*/
-.mpie-video {
-    size: 10%;
-    position: absolute;
-
-}
