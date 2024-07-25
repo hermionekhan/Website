@@ -130,20 +130,29 @@ header {
 /*DIGITAL GALLERY*/
 
 /*PROJECTS*/
-.projects-text {
-    color: black;
-    font-family: NunitoReg;
-    font-size: 1rem;
-    margin-top: 5vh;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
 }
 
-.website-button,
-.d-button,
-.ui-button,
-.uxbutton {
-    font-size: 2vh;
+.grid-item {
+    text-align: center;
 }
 
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
 /*PROJECTS*/
 
 /*CONTACT*/
