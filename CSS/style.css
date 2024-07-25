@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Tuwir;
-    src: url(../CSS/Assets/Tuwir.ttf);
+    font-family: Y2K;
+    src: url(../CSS/Assets/Y2K.ttf);
 }
 
 @font-face {
@@ -47,7 +47,7 @@ header {
     padding: 2vw;
     text-decoration: none;
     color: black;
-    font-family: Tuwir;
+    font-family: Y2K;
     font-size: 1.5rem;
     transition: 0.05s;
 }
@@ -56,7 +56,7 @@ header {
 /*INDEX*/
 .about-title {
     color: black;
-    font-family: Tuwir;
+    font-family: Y2K;
     font-size: 2rem;
     margin-top: 5%;
 }
@@ -149,7 +149,7 @@ header {
 /*CONTACT*/
 .contact-title {
     color: black;
-    font-family: Tuwir;
+    font-family: Y2K;
     font-size: 1.5rem;
     margin-bottom: 1%;
     margin-top: 10vh;
