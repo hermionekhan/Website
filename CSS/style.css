@@ -15,12 +15,12 @@
 }
 
 header {
-    padding: 15vh;
+    padding: 20vh;
 }
 
-.body {
+main {
     background-color: rgb(255, 255, 255);
-    padding: 0px 3vw;
+    margin-top: 2vh;
 }
 
 #logo {
