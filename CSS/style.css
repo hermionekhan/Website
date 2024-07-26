@@ -15,7 +15,7 @@
 }
 
 header {
-    padding: 20vh;
+    padding: 10vh;
 }
 
 main {
@@ -30,12 +30,14 @@ main {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+    width: 500px;
+    height: 300px;
+    }
 
 .menu ul {
     list-style-type: none;
     padding: 0;
-    top: 15vh;
+    top: 10vh;
     position: relative;
     text-align: center;
 }
@@ -49,8 +51,36 @@ main {
     text-decoration: none;
     color: black;
     font-family: Y2K;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: 0.05s;
+}
+
+.menu a:hover{
+    animation-delay: 0.04s;
+    text-shadow: 0px 0px 3px black;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.footer a {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1rem;
+}
+
+.footer p {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 0.8rem;
+}
+
+.footer a:hover{
+    animation-delay: 0.04s;
+    text-shadow: 0px 0px 1px black;
 }
 /*UNIVERSAL*/
 
@@ -59,7 +89,6 @@ main {
     color: black;
     font-family: Y2K;
     font-size: 2rem;
-    margin-top: 5%;
 }
 
 .about-para {
@@ -67,6 +96,7 @@ main {
     font-family: NunitoReg;
     padding: 2% 0%;
     font-size: 1.1rem;
+    width: 60vw;
 }
 /*INDEX*/
 
@@ -75,7 +105,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2vw;
-    padding: 2%;
 }
 
 .park-item {
@@ -91,10 +120,9 @@ main {
 
 .park-item p {
     margin-top: 5px;
-    font-size: 14px;
     color: black;
     font-family: NunitoReg;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 /*DIGITAL GALLERY*/
 
@@ -103,7 +131,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5vw;
-    padding: 5%;
 }
 
 .grid-item {
@@ -123,10 +150,9 @@ main {
 
 .grid-item p {
     margin-top: 5px;
-    font-size: 14px;
     color: black;
     font-family: NunitoReg;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 /*PROJECTS*/
 
