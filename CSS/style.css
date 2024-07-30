@@ -108,14 +108,17 @@ main {
 }
 
 .park-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
     text-align: center;
 }
 
 .park-item img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     display: block;
-    margin: 0 auto;
 }
 
 .park-item p {
