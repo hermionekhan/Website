@@ -154,6 +154,60 @@ main {
     font-family: NunitoReg;
     font-size: 0.9rem;
 }
+
+.back-button {
+    text-align: center;
+}
+
+.back-button a {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1.1rem;
+}
+
+.collage {
+    display: block;
+    text-align: center;
+}
+
+.collage img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-title {
+    text-align: center;
+}
+
+.logo-title h1 {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1.8rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.exp-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.exp-container p {
+    display: inline-block;
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1rem;
+    width: 50%;
+}
+
+.exp-container video {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+}
 /*PROJECTS*/
 
 /*CONTACT*/
