@@ -94,17 +94,32 @@ main {
 .about-para {
     color: black;
     font-family: NunitoReg;
-    padding: 2% 0%;
+    padding: 1% 0%;
     font-size: 1.1rem;
     width: 60vw;
+}
+
+.website-title {
+    color: black;
+    font-family: Y2K;
+    font-size: 1.7rem;
+    margin-top: 2vh;
 }
 /*INDEX*/
 
 /*DIGITAL GALLERY*/
+.park-para {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1rem;
+    text-align: center;
+}
+
 .park-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2vw;
+    margin-top: 3vh;
 }
 
 .park-item {
@@ -179,13 +194,6 @@ main {
     height: 100%;
 }
 
-.para-container h1 {
-    color: black;
-    font-family: NunitoReg;
-    font-size: 1.8rem;
-    margin-bottom: 1vh;
-}
-
 .exp-container {
     display: flex;
     width: 100%; 
@@ -193,13 +201,20 @@ main {
     box-sizing: border-box;
     align-items: flex-start;
     margin-bottom: 3vh;
-    margin-top: 5vh;
+    margin-top: 7vh;
 }
 
 .para-container {
     display: inline-block;
     width: 60%;
     box-sizing: border-box;
+}
+
+.para-container h1 {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1.8rem;
+    margin-bottom: 1vh;
 }
 
 .para-container p {
