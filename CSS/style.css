@@ -272,6 +272,28 @@ main {
 /*PROJECTS*/
 
 /*CONTACT*/
+.contact-container {
+    display: flex;
+    width: 100%; 
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 5%;
+}
+.contact-left {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contact-right {
+    display: inline-block;
+    width: 65%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .contact-title {
     color: black;
     font-family: Y2K;
@@ -279,9 +301,41 @@ main {
     margin-bottom: 1vh;
 }
 
+.contact-details {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1.1rem;
+}
+
+.contact-right img {
+    width: 60px;
+    height: auto;
+}
+
+.contact-right p {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 0.9rem;
+    margin-top: 0.5vh;
+}
+
+.contact-right a:hover {
+    text-decoration: underline;
+}
+
+.contact-right a {
+    text-decoration: none;
+}
+
+.link-item {
+    display: inline-block;
+    padding: 0 4vw;
+}
+
 .contact-para {
     color: black;
     font-family: NunitoReg;
     font-size: 1.1rem;
+    margin-top: 3vh;
 }
 /*CONTACT*/
