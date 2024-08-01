@@ -51,7 +51,7 @@ main {
     text-decoration: none;
     color: black;
     font-family: Y2K;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     transition: 0.05s;
 }
 
@@ -85,6 +85,31 @@ main {
 /*UNIVERSAL*/
 
 /*INDEX*/
+.index-container {
+    display: flex;
+    width: 100%; 
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 5%;
+}
+
+.index-left {
+    display: inline-block;
+    width: 35%;
+}
+
+.index-right {
+    display: inline-block;
+    width: 60%;
+}
+
+.index-right img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
 .about-title {
     color: black;
     font-family: Y2K;
@@ -96,7 +121,6 @@ main {
     font-family: NunitoReg;
     padding: 1% 0%;
     font-size: 1.1rem;
-    width: 60vw;
 }
 
 .website-title {
@@ -104,6 +128,13 @@ main {
     font-family: Y2K;
     font-size: 1.7rem;
     margin-top: 2vh;
+}
+
+.me-title {
+    color: black;
+    font-family: Y2K;
+    font-size: 1.7rem;
+    margin-bottom: 1vh;
 }
 /*INDEX*/
 
