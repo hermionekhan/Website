@@ -332,7 +332,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 100%;
     height: auto;
 }
 
