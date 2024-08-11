@@ -334,6 +334,7 @@ main {
     align-items: center;
     width: 100%;
     height: auto;
+    margin-bottom: 2vh;
 }
 
 .collage img {
