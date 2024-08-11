@@ -88,8 +88,8 @@ main {
     text-align: center;
     color: black;
     font-family: NunitoReg;
-    font-size: 1rem;
-    margin-bottom: 6%;
+    font-size: 1.1rem;
+    margin-bottom: 5%;
     text-decoration: underline;
 }
 
@@ -118,18 +118,12 @@ main {
     height: auto;
 }
 
-.about-title {
-    color: black;
-    font-family: Y2K;
-    font-size: 1.7rem;
-}
-
 .intro-para {
     color: black;
     font-family: NunitoReg;
     padding: 1% 0%;
     font-size: 1.1rem;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
 }
 
 .about-para {
@@ -142,14 +136,14 @@ main {
 .website-title {
     color: black;
     font-family: Y2K;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 2vh;
 }
 
 .me-title {
     color: black;
     font-family: Y2K;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 1vh;
 }
 /*INDEX*/
