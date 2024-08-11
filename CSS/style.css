@@ -104,15 +104,15 @@ main {
 
 .index-left {
     display: inline-block;
-    width: 35%;
+    width: 60%;
 }
 
 .index-right {
     display: inline-block;
-    width: 60%;
+    width: 35%;
 }
 
-.index-right img {
+.index-left img {
     display: inline-block;
     max-width: 100%;
     height: auto;
@@ -122,6 +122,14 @@ main {
     color: black;
     font-family: Y2K;
     font-size: 1.7rem;
+}
+
+.intro-para {
+    color: black;
+    font-family: NunitoReg;
+    padding: 1% 0%;
+    font-size: 1.1rem;
+    margin-bottom: 6%;
 }
 
 .about-para {
