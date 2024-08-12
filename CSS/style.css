@@ -8,6 +8,16 @@
     src: url(../CSS/Assets/Nunito-Regular.ttf);
 }
 
+@font-face {
+    font-family: NunitoIt;
+    src: url(../CSS/Assets/Nunito-Italic.ttf);
+}
+
+@font-face {
+    font-family: Syne;
+    src: url(../CSS/Assets/Syne-Medium.ttf);
+}
+
 /*UNIVERSAL*/
 * {
     margin: 0px 0px;
@@ -84,13 +94,13 @@ main {
 /*UNIVERSAL*/
 
 /*INDEX*/
+
 .warning-text {
     text-align: center;
     color: black;
-    font-family: NunitoReg;
+    font-family: NunitoIt;
     font-size: 1.1rem;
-    margin-bottom: 5%;
-    text-decoration: underline;
+    margin-bottom: 4%;
 }
 
 .index-container {
@@ -118,12 +128,26 @@ main {
     height: auto;
 }
 
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.intro-para-cont {
+    width: 50%;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    padding: 2% 2%;
+}
+
 .intro-para {
     color: black;
     font-family: NunitoReg;
-    padding: 1% 0%;
     font-size: 1.1rem;
-    margin-bottom: 5%;
+    text-align: center;
 }
 
 .about-para {
@@ -135,14 +159,14 @@ main {
 
 .website-title {
     color: black;
-    font-family: Y2K;
+    font-family: Syne;
     font-size: 1.5rem;
     margin-top: 2vh;
 }
 
 .me-title {
     color: black;
-    font-family: Y2K;
+    font-family: Syne;
     font-size: 1.5rem;
     margin-bottom: 1vh;
 }
@@ -253,7 +277,7 @@ main {
 
 .lounge-item-end h2 {
     color: black;
-    font-family: NunitoReg;
+    font-family: Syne;
     font-size: 1.1rem;
 }
 
@@ -261,7 +285,6 @@ main {
     color: black;
     font-family: NunitoReg;
     font-size: 1rem;
-    margin-top: 1%;
 }
 
 .lounge-item-text {
@@ -273,13 +296,14 @@ main {
 
 .lounge-item-text h2 {
     color: black;
-    font-family: NunitoReg;
+    font-family: Syne;
     font-size: 1.4rem;
+    margin-bottom: 1vh;
 }
 
 .lounge-item-text h3 {
     color: black;
-    font-family: NunitoReg;
+    font-family: Syne;
     font-size: 1.1rem;
 }
 
@@ -339,7 +363,7 @@ main {
 .grid-item p {
     margin-top: 5px;
     color: black;
-    font-family: NunitoReg;
+    font-family: Syne;
     font-size: 0.9rem;
 }
 
@@ -375,15 +399,15 @@ main {
 
 .para-container h1 {
     color: black;
-    font-family: NunitoReg;
+    font-family: Syne;
     font-size: 1.8rem;
     margin-bottom: 1vh;
 }
 
 .para-container h2 {
     color: black;
-    font-family: NunitoReg;
-    font-size: 1.2rem;
+    font-family: Syne;
+    font-size: 1.1rem;
     margin-bottom: 1vh;
 }
 
@@ -419,6 +443,7 @@ main {
     align-items: flex-start;
     gap: 5%;
 }
+
 .contact-left {
     display: inline-block;
     width: 30%;
@@ -435,7 +460,7 @@ main {
 
 .contact-title {
     color: black;
-    font-family: Y2K;
+    font-family: Syne;
     font-size: 1.7rem;
     margin-bottom: 1vh;
 }
