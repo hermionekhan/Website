@@ -254,7 +254,7 @@ main {
 .lounge-item-end h2 {
     color: black;
     font-family: NunitoReg;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .lounge-item-end p {
@@ -275,6 +275,12 @@ main {
     color: black;
     font-family: NunitoReg;
     font-size: 1.4rem;
+}
+
+.lounge-item-text h3 {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1.1rem;
 }
 
 .lounge-item-text p {
@@ -362,6 +368,13 @@ main {
     color: black;
     font-family: NunitoReg;
     font-size: 1.8rem;
+    margin-bottom: 1vh;
+}
+
+.para-container h2 {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1.2rem;
     margin-bottom: 1vh;
 }
 
