@@ -301,6 +301,15 @@ main {
 }
 
 /*PROJECTS*/
+
+.uni-para {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
