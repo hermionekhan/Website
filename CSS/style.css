@@ -334,10 +334,17 @@ main {
     margin-bottom: 5%;
 }
 
+.grid-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5vw;
+    width: 70%;
 }
 
 .grid-item {
