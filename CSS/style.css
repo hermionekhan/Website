@@ -446,23 +446,26 @@ main {
     display: flex;
     width: 100%; 
     max-width: 100%;
-    box-sizing: border-box;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 5%;
 }
 
-.contact-left {
-    display: inline-block;
-    width: 30%;
-    box-sizing: border-box;
-    box-sizing: border-box;
+.contact-body {
+    width: 60%;
 }
 
-.contact-right {
-    display: inline-block;
-    width: 65%;
-    box-sizing: border-box;
-    box-sizing: border-box;
+.icon-container {
+    width: 100%;
+}
+
+.contact-icons {
+    display: flex;
+    width: 100%; 
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
 }
 
 .contact-title {
@@ -478,24 +481,11 @@ main {
     font-size: 1.1rem;
 }
 
-.contact-right img {
+.contact-icons img {
     width: 60px;
     height: auto;
-}
-
-.contact-right p {
-    color: black;
-    font-family: NunitoReg;
-    font-size: 0.9rem;
-    margin-top: 0.5vh;
-}
-
-.contact-right a:hover {
-    text-decoration: underline;
-}
-
-.contact-right a {
-    text-decoration: none;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .link-item {
