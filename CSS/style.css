@@ -398,7 +398,7 @@ main {
 }
 /*PROJECTS*/
 
-/*PHANTOM MATERNAL*/
+/*PHANTOM MATERNAL, DEPTH, KINGS MEADOW*/
 .collage {
     display: flex;
     justify-content: center;
@@ -559,7 +559,78 @@ main {
 .button-container a:hover {
     box-shadow: 0px 0px 10px rgb(63, 63, 63);
 }
-/*PHANTOM MATERNAL*/
+/*PHANTOM MATERNAL, DEPTH, KINGS MEADOW*/
+
+/*HCI*/
+.exp-container-2 {
+    display: flex;
+    width: 100%; 
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: flex-start;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    gap: 5%;
+}
+
+.skills-container h2 {
+    color: black;
+    font-family: Syne;
+    font-size: 1.1rem;
+    margin-bottom: 1vh;
+}
+
+.skills-container li {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1rem;
+    margin-bottom: 1vh;
+    padding: 1% 0%;
+
+}
+
+.skills-container li span {
+    position: relative;
+    left: -3px;
+}
+
+.skills-container ul {
+    padding-left: 20px;
+}
+
+.button-container-alt {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.button-container-alt img {
+    width: 25px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.button-container-alt a {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+    padding: 1%;
+    transition: 0.2s;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.button-container-alt a:hover {
+    box-shadow: 0px 0px 10px rgb(63, 63, 63);
+}
+/*HCI*/
 
 /*CONTACT*/
 .contact-container {
