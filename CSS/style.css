@@ -283,9 +283,20 @@ main {
     text-align: center;
 }
 
-.lounge-item-container img {
+.lounge-image-container {
     max-width: 30vw;
     height: auto;
+}
+
+.lounge-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.lounge-image-container p {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 0.9rem;
 }
 
 .lounge-item-link {
