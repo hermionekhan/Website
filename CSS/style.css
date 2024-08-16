@@ -52,6 +52,7 @@ main {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 .menu ul {
@@ -80,6 +81,7 @@ main {
     padding: 5px 30px;
     cursor: pointer;
     display: inline-block;
+    text-align: center;
 }
 
 #image-preview-container {
