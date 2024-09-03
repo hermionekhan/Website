@@ -60,9 +60,9 @@ main {
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 450px;
-        height: 260px;
-        margin-top: 3%;
+        width: 340px;
+        height: 210px;
+        margin-top: 5%;
     }
 }
 
@@ -110,6 +110,18 @@ main {
     font-size: 1.3rem;
     transition: 0.3s;
     width: auto;
+}
+
+@media (max-width: 600px) {
+    .menu a {
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-family: Y2K;
+        font-size: 1rem;
+        transition: 0.3s;
+        width: auto;
+    }
 }
 
 .menu a:hover {
