@@ -1167,6 +1167,17 @@ main {
     padding: 0 4vw;
 }
 
+.link-item p {
+    color: black;
+    font-family: NunitoReg;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.link-item a {
+    text-decoration: none;
+}
+
 .contact-para {
     color: black;
     font-family: NunitoReg;
