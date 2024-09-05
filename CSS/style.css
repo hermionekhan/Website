@@ -96,7 +96,7 @@ main {
     .menu ul {
         list-style-type: none;
         padding: 0;
-        top: 5vh;
+        top: 6vh;
         position: relative;
         text-align: center;
     }
@@ -439,6 +439,18 @@ main {
     padding: 4%;
 }
 
+@media (max-width: 600px){
+    .vertical-list a {
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        padding: 4%;
+    }
+}
+
 .vertical-list li:hover {
     box-shadow: 0px 0px 10px rgb(197, 197, 197);
 }
@@ -452,10 +464,11 @@ main {
 
 @media (max-width: 600px){
     .vertical-list img {
-        width: 40%;
+        width: 70%;
+        display: block;
         height: auto;
-        object-fit: cover;
-        margin-right: 15px;
+        margin: 0 auto;
+        margin-bottom: 3%;
     }
 }
 
@@ -466,8 +479,10 @@ main {
 
 @media (max-width: 600px){
     .vertical-list span {
+        display: block;
         font-size: 0.9rem;
         font-family: NunitoReg;
+        text-align: center;
     }
 }
 
@@ -634,7 +649,7 @@ main {
 @media (max-width: 600px){
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5vw;
         width: 90%;
     }
