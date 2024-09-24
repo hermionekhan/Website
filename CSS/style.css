@@ -378,6 +378,15 @@ main {
     margin-top: 3vh;
 }
 
+@media (max-width: 600px){
+    .park-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+        margin-top: 3vh;
+    }
+}
+
 .park-item {
     display: flex;
     flex-direction: column;
