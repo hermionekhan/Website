@@ -201,22 +201,25 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 5vw;
-    width: 50%;
+    width: 80%;
 }
 
 @media (max-width: 600px) {
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 5vw;
         width: 90%;
     }
 }
 
 .grid-item {
-    text-align: center;
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    text-align: left;
 }
 
 .grid-item a {
@@ -228,21 +231,40 @@ main {
 }
 
 .grid-item img {
-    max-width: 100%;
+    flex: 0 0 auto; 
+    max-width: 20vw; 
     height: auto;
-    display: block;
-    margin: 0 auto;
     transition: 0.2s;
     border-radius: 30px;
 }
 
-.grid-item p {
-    margin-top: 5px;
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 0.9rem;
+@media (max-width: 600px) {
+    .grid-item img {
+        flex: 0 0 auto; 
+        max-width: 30vw; 
+        height: auto;
+        transition: 0.2s;
+        border-radius: 30px;
+    }
 }
 
+.grid-text {
+    flex: 1;
+}
+
+.grid-item h3 {
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 1rem;
+}
+
+.grid-item p {
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 0.8rem;
+}
 /*GAMEWORK*/
 
 /*PHANTOM MATERNAL, DEPTH, KINGS MEADOW*/
