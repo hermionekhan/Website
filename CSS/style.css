@@ -192,11 +192,66 @@ main {
 /*DIGITALART*/
 
 /*GAMEWORK*/
+.landing-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+.landing-top {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin-bottom: 5vh;
+}
+
+.landing-top p {
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 0.9rem;
+    padding-top: 5%;
+}
+
+.landing-top a {
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 0.9rem;
+    transition: 0.1s;
+}
+
+.landing-top a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.landing-images {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-images li {
+    margin-right: 50px;
+}
+
+.landing-images img {
+    width: 40px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.landing-images img:hover {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
 .grid-body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2vh;
 }
 
 .grid-container {
