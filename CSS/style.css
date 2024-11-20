@@ -223,14 +223,14 @@ main {
 .landing-top p {
     color: rgb(255, 255, 255);
     font-family: Syne;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-top: 5%;
 }
 
 .landing-top a {
     color: rgb(255, 255, 255);
     font-family: Syne;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: 0.1s;
 }
 
@@ -334,14 +334,14 @@ main {
     margin: 0px;
     color: rgb(255, 255, 255);
     font-family: Syne;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .grid-item p {
     margin-top: 10px;
     color: rgb(255, 255, 255);
     font-family: Syne;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 /*GAMEWORK*/
 
