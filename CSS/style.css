@@ -250,9 +250,15 @@ main {
 }
 
 .landing-images img {
-    width: 40px;
+    width: 50px;
     border-radius: 10px;
     transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+    .landing-images img {
+        width: 40px;
+    }
 }
 
 @media (max-width: 600px) {
