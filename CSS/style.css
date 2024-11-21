@@ -141,12 +141,40 @@ main {
     text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 
+.index-behind {
+    margin-top: 5vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.behind-container img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.behind-container p {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 1rem;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.behind-container a {
+    text-decoration: none;
+}
+
 .contact-images {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .contact-images li {
@@ -175,6 +203,94 @@ main {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.35);
 }
 /*INDEX*/
+
+/*WEBSITE INFO*/
+.website-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.website-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.website-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    margin-bottom: 5vh;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+@media (max-width: 600px) {
+    .website-top {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+}
+
+.website-container p {
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.first {
+    width: 50%;
+    display: block;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.second {
+    width: 50%;
+    display: block;
+    align-self: flex-end;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.third {
+    width: 50%;
+    display: block;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+/*WEBSITE INFO*/
 
 /*DIGITALART*/
 .park-container {
