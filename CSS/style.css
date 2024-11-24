@@ -84,11 +84,22 @@ main {
 
 /*INDEX*/
 .index-body {
-    margin-top: 2vh;
     display: flex; 
     justify-content: center; 
     align-items: center;
     flex-direction: column;
+}
+
+.index-welcome {
+    margin-bottom: 5vh;
+}
+
+.index-welcome p {
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .index-container {
@@ -111,6 +122,7 @@ main {
 
 .index-item {
     text-align: center;
+    transition: 0.3s;
 }
 
 .index-item a {
@@ -118,7 +130,7 @@ main {
 }
 
 .index-item img {
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -138,11 +150,14 @@ main {
     color: rgb(255, 255, 255);
     font-family: Syne;
     font-size: 1rem;
-    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.index-item :hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .index-behind {
-    margin-top: 5vh;
+    margin-top: 100px;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -150,8 +165,13 @@ main {
     text-align: center;
 }
 
+.behind-container {
+    width: 10%;
+    transition: 0.3s;
+}
+
 .behind-container img {
-    max-width: 10%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -162,7 +182,10 @@ main {
     color: rgb(255, 255, 255);
     font-family: Syne;
     font-size: 1rem;
-    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.behind-container :hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .behind-container a {
@@ -211,9 +234,6 @@ main {
     align-items: center;
     flex-direction: column;
     margin-bottom: 5vh;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
 }
 
 .website-top {
@@ -223,20 +243,36 @@ main {
     flex-direction: column;
     height: 100%;
     width: 70%;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
 }
 
 .website-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    width: 60%;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 600px) {
+    .website-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+}
+
+.website-item {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 70%;
-    margin-bottom: 5vh;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.website-item img {
+    max-height: 20vh;
 }
 
 @media (max-width: 600px) {
@@ -253,7 +289,14 @@ main {
     color: rgb(255, 255, 255);
     font-family: Syne;
     font-size: 1rem;
-    padding-top: 5%;
+}
+
+@media (max-width: 600px) {
+    .website-container p {
+        color: rgb(255, 255, 255);
+        font-family: Syne;
+        font-size: 0.9rem;
+    }
 }
 
 .center {
@@ -261,35 +304,20 @@ main {
     display: block;
     justify-content: center;
     align-items: center;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
+    margin-bottom: 5vh;
 }
 
-.first {
-    width: 50%;
-    display: block;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
+@media (max-width: 600px) {
+    .center {
+        width: 80%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1vh;
+    }
 }
 
-.second {
-    width: 50%;
-    display: block;
-    align-self: flex-end;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
-}
 
-.third {
-    width: 50%;
-    display: block;
-    border: 1px;
-    border-color: white;
-    border-style: solid;
-}
 /*WEBSITE INFO*/
 
 /*DIGITALART*/
