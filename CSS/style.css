@@ -70,7 +70,7 @@ main {
 }
 
 .footer a {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 167, 226);
     font-family: Syne;
     font-size: 1rem;
     transition: 0.2s;
@@ -78,7 +78,7 @@ main {
 }
 
 .footer a:hover {
-    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px rgb(245, 129, 255);
 }
 /*UNIVERSAL*/
 
@@ -91,6 +91,7 @@ main {
 }
 
 .index-welcome {
+    margin-top: 5vh;
     margin-bottom: 5vh;
 }
 
@@ -99,7 +100,19 @@ main {
     font-family: Syne;
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 10px;
+    max-width: 50vw;
+    padding: 10px 0px;
+}
+
+@media (max-width: 600px) {
+    .index-welcome p {
+        color: rgb(255, 255, 255);
+        font-family: Syne;
+        font-size: 1rem;
+        text-align: center;
+        max-width: 100vw;
+        padding: 10px 0px;
+    }
 }
 
 .index-container {
@@ -138,7 +151,7 @@ main {
 
 @media (max-width: 600px) {
     .index-item img {
-        max-width: 50%;
+        max-width: 40%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -153,43 +166,7 @@ main {
 }
 
 .index-item :hover {
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
-
-.index-behind {
-    margin-top: 100px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.behind-container {
-    width: 10%;
-    transition: 0.3s;
-}
-
-.behind-container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.behind-container p {
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 1rem;
-}
-
-.behind-container :hover {
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
-
-.behind-container a {
-    text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(245, 129, 255);
 }
 
 .contact-images {
@@ -197,7 +174,6 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 20%;
 }
 
 .contact-images li {
@@ -211,8 +187,8 @@ main {
 }
 
 @media (max-width: 600px) {
-    .contact-images img {
-        width: 40px;
+    .contact-images li {
+        padding: 0px 10px;
     }
 }
 
@@ -223,7 +199,7 @@ main {
 }
 
 .contact-images img:hover {
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 0px 10px rgb(245, 129, 255);
 }
 /*INDEX*/
 
@@ -316,8 +292,6 @@ main {
         margin-bottom: 1vh;
     }
 }
-
-
 /*WEBSITE INFO*/
 
 /*DIGITALART*/
@@ -372,7 +346,13 @@ main {
     justify-content: center; 
     align-items: center;
     flex-direction: column;
-    margin-bottom: 5vh;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+    .landing-container {
+        margin-bottom: 0px;
+    }
 }
 
 .landing-top {
@@ -381,7 +361,6 @@ main {
     align-items: center;
     height: 100%;
     width: 50%;
-    margin-bottom: 5vh;
 }
 
 @media (max-width: 600px) {
@@ -410,52 +389,20 @@ main {
 }
 
 .landing-top a:hover {
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
-
-.landing-images {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.landing-images li {
-    margin-right: 50px;
-}
-
-.landing-images img {
-    width: 50px;
-    border-radius: 10px;
-    transition: 0.2s;
-}
-
-@media (max-width: 600px) {
-    .landing-images img {
-        width: 40px;
-    }
-}
-
-@media (max-width: 600px) {
-    .landing-images li {
-        margin-right: 20px;
-    }
-}
-
-.landing-images img:hover {
-    box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.35);
+    text-shadow: 0px 0px 10px rgb(245, 129, 255);
 }
 
 .grid-body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 5vw;
+    gap: 5vh;
     width: 70%;
 }
 
@@ -470,24 +417,27 @@ main {
 .grid-item {
     display: flex;
     align-items: center; 
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
     gap: 20px; 
-    text-align: left;
+    transition: 0.2s;
+    padding: 12px 18px;
+    border-radius: 30px;
 }
 
 .grid-item a {
     text-decoration: none;
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
 }
 
-.grid-item img:hover {
-    box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.5);
+.grid-item:hover {
+    box-shadow: 0px 0px 10px rgb(248, 176, 255);
 }
 
-.grid-item img {
-    flex: 0 0 auto; 
+.grid-item img { 
     max-width: 10vw; 
     height: auto;
-    transition: 0.2s;
     border-radius: 50px;
 }
 
@@ -496,13 +446,14 @@ main {
         flex: 0 0 auto; 
         max-width: 30vw; 
         height: auto;
-        transition: 0.2s;
         border-radius: 30px;
     }
 }
 
 .grid-text {
-    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
 }
 
 .grid-item h3 {
@@ -950,3 +901,69 @@ main {
     box-shadow: 0px 0px 10px rgb(145, 145, 145);
 }
 /*ACADEMIC PAPERS*/
+
+/*SOCIAL MEDIA*/
+.video-row {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+    max-width: 1200px; 
+  }
+  
+  .video-row video {
+    width: 18%; 
+    aspect-ratio: 9/16;
+    object-fit: cover;
+  }
+
+  .sm-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 600px) {
+    .video-row {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .video-row video {
+      width: 70%;
+      margin-bottom: 1rem; 
+    }
+  }
+
+.skills-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .skills-sm {
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-sm h2{
+    color: rgb(255, 255, 255);
+    font-family: Syne;
+    font-size: 1.1rem;
+}
+
+.skills-sm li, span {
+    color: rgb(255, 255, 255);
+    font-family: NunitoReg;
+    font-size: 1rem;
+    margin-bottom: 1vh;  
+}
+/*SOCIAL MEDIA*/
