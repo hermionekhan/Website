@@ -436,7 +436,7 @@ main {
 }
 
 .grid-item img { 
-    max-width: 10vw; 
+    max-width: 150px; 
     height: auto;
     border-radius: 50px;
 }
@@ -444,7 +444,7 @@ main {
 @media (max-width: 600px) {
     .grid-item img {
         flex: 0 0 auto; 
-        max-width: 30vw; 
+        max-width: 100px; 
         height: auto;
         border-radius: 30px;
     }
