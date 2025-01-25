@@ -370,7 +370,8 @@ main {
         align-items: center;
         height: 100%;
         width: 90%;
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
     }
 }
 
@@ -905,14 +906,15 @@ main {
 /*SOCIAL MEDIA*/
 .video-row {
     display: flex;
-    justify-content: space-between;
-    width: 90%; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
     max-width: 1200px; 
   }
   
   .video-row video {
-    width: 18%; 
-    aspect-ratio: 9/16;
+    width: 50%; 
+    aspect-ratio: 16/9;
     object-fit: cover;
   }
 
@@ -931,7 +933,7 @@ main {
     }
   
     .video-row video {
-      width: 70%;
+      width: 100%;
       margin-bottom: 1rem; 
     }
   }
