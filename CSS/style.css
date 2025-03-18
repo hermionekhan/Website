@@ -169,130 +169,53 @@ main {
     text-shadow: 0px 0px 10px rgb(245, 129, 255);
 }
 
+.contact-container {
+    background-color: rgb(223, 173, 203) ;
+    border-radius: 50px; 
+    padding: 10px; 
+    display: flex;
+    justify-content: flex-start; 
+    max-width: fit-content; 
+    box-shadow: 0 0px 10px rgb(241, 139, 255);
+}
+
 .contact-images {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .contact-images li {
-    padding: 0px 30px;
+    padding: 0px 15px;
+    background-color: rgb(223, 173, 203);
+    
 }
 
 .contact-images img {
     width: 50px;
     border-radius: 10px;
+    display: block;
     transition: 0.2s;
+}
+
+.contact-images img:hover {
+    box-shadow: 0px 0px 7px rgb(170, 107, 179);
 }
 
 @media (max-width: 600px) {
     .contact-images img {
         width: 45px;
     }
-}
 
-@media (max-width: 600px) {
     .contact-images li {
-        padding: 0px 20px;
+        padding: 0px 10px;
     }
 }
 
-.contact-images img:hover {
-    box-shadow: 0px 0px 10px rgb(245, 129, 255);
-}
 /*INDEX*/
-
-/*WEBSITE INFO*/
-.website-container {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 5vh;
-}
-
-.website-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    width: 70%;
-}
-
-.website-bottom {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 100%;
-    width: 60%;
-    margin-bottom: 5vh;
-}
-
-@media (max-width: 600px) {
-    .website-bottom {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: 100%;
-        width: 100%;
-        margin-bottom: 5vh;
-    }
-}
-
-.website-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3vh;
-}
-
-.website-item img {
-    max-height: 20vh;
-}
-
-@media (max-width: 600px) {
-    .website-top {
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 90%;
-        margin-bottom: 5vh;
-    }
-}
-
-.website-container p {
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 1rem;
-}
-
-@media (max-width: 600px) {
-    .website-container p {
-        color: rgb(255, 255, 255);
-        font-family: Syne;
-        font-size: 0.9rem;
-    }
-}
-
-.center {
-    width: 50%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5vh;
-}
-
-@media (max-width: 600px) {
-    .center {
-        width: 80%;
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1vh;
-    }
-}
-/*WEBSITE INFO*/
 
 /*DIGITALART*/
 .park-container {
@@ -359,6 +282,7 @@ main {
     display: block;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100%;
     width: 50%;
 }
