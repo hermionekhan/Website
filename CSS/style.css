@@ -117,11 +117,12 @@ main {
 
 .index-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 70%;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
     gap: 5vw;
     margin: 0 auto;
     text-align: center;
+    align-items: center;
 }
 
 @media (max-width: 600px) {
