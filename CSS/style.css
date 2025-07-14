@@ -98,7 +98,7 @@ main {
     display: flex;
     justify-content: flex-start; 
     max-width: fit-content; 
-    max-height: 30%;
+    max-height: 100%;
     box-shadow: 0 0px 10px rgb(241, 139, 255);
 }
 
@@ -130,7 +130,7 @@ main {
 }
 
 .contact-images img {
-    width: 45px;
+    width: 50px;
     border-radius: 10px;
     display: block;
     transition: 0.2s;
