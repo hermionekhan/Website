@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 7vw;
+    gap: 5vw;
 }
 
 @media (max-width: 600px) {
@@ -130,7 +130,7 @@ main {
 }
 
 .contact-images img {
-    width: 40px;
+    width: 45px;
     border-radius: 10px;
     display: block;
     transition: 0.2s;
