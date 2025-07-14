@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10vw;
+    gap: 7vw;
 }
 
 @media (max-width: 600px) {
@@ -58,8 +58,8 @@ main {
 #logo {
     display: flex;
     justify-content: flex-start;
-    max-width: 100%;
-    min-width: 100px;
+    max-width: 90%;
+    min-width: 70px;
     height: auto;
 }
 
@@ -98,7 +98,7 @@ main {
     display: flex;
     justify-content: flex-start; 
     max-width: fit-content; 
-    max-height: 20%;
+    max-height: 30%;
     box-shadow: 0 0px 10px rgb(241, 139, 255);
 }
 
