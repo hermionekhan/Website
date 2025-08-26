@@ -155,6 +155,7 @@ body {
     background-image: url(../CSS/Assets/bgimage.png);
     background-size: cover;
 }
+
 @media (max-width: 600px) {
     body {
     background-image: url(../CSS/Assets/pbgimage.png);
@@ -173,30 +174,6 @@ body {
     flex-direction: column;
 }
 
-.index-welcome {
-    margin-bottom: 5vh;
-}
-
-.index-welcome p {
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 1rem;
-    text-align: center;
-    max-width: 50vw;
-    padding: 10px 0px;
-}
-
-@media (max-width: 600px) {
-    .index-welcome p {
-        color: rgb(255, 255, 255);
-        font-family: Syne;
-        font-size: 1rem;
-        text-align: center;
-        max-width: 100vw;
-        padding: 10px 0px;
-    }
-}
-
 .index-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -210,9 +187,9 @@ body {
 @media (max-width: 600px) {
     .index-container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 90%;
-        gap: 10vh;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 8vh;
     }
 }
 
@@ -242,10 +219,11 @@ body {
 }
 
 .index-item p {
-    margin-top: 20px;
+    margin-bottom: 20px;
     color: rgb(255, 255, 255);
     font-family: Syne;
     font-size: 1rem;
+    font-style: bold;
 }
 
 .index-item :hover {
@@ -258,7 +236,7 @@ body {
 .park-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2vw;
+    gap: 5vh;
     margin-top: 3vh;
 }
 
@@ -266,7 +244,7 @@ body {
     .park-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2vw;
+        gap: 5vh;
         margin-top: 3vh;
     }
 }
@@ -306,12 +284,12 @@ body {
     justify-content: center; 
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-top: 5vh;
 }
 
 @media (max-width: 600px) {
     .landing-container {
-        margin-bottom: 0px;
+        margin-top: 0vh;
     }
 }
 
@@ -322,7 +300,6 @@ body {
     text-align: center;
     height: 100%;
     width: 50%;
-    margin-top: 2vh;
 }
 
 @media (max-width: 600px) {
@@ -333,7 +310,6 @@ body {
         height: 100%;
         width: 90%;
         margin-bottom: 2vh;
-        margin-top: 2vh;
     }
 }
 
@@ -341,7 +317,6 @@ body {
     color: rgb(255, 255, 255);
     font-family: Syne;
     font-size: 1rem;
-    padding-top: 5%;
 }
 
 .landing-top a {
