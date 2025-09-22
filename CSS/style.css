@@ -152,15 +152,16 @@ main {
 }
 
 body {
-    background-image: url(../CSS/Assets/bgimage.png);
-    background-size: cover;
+    background-image: url(../CSS/Assets/PortfolioBG.jpg);
+    background-size:contain;
+    background-repeat: repeat;
 }
 
 @media (max-width: 600px) {
     body {
-    background-image: url(../CSS/Assets/pbgimage.png);
+    background-image: url(../CSS/Assets/PortfolioBG.jpg);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: #121212;
     }
 }
