@@ -92,6 +92,52 @@ main {
     text-shadow: 0px 0px 8px rgb(245, 129, 255);
 }
 
+.footergrid-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footergrid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 600px) {
+    .footergrid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.footergrid-item {
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;  
+    padding: 10px 10px;
+}
+
+.footergrid-item a {
+    text-decoration: none;
+    display: flex; 
+    align-items: center;
+}
+
+.footergrid-item img { 
+    max-width: 100px; 
+    height: auto;
+    border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+    .footergrid-item img {
+        flex: 0 0 auto; 
+        max-width: 70px; 
+        height: auto;
+        border-radius: 30px;
+    }
+}
+
 .contact-container {
     background-color: rgb(223, 173, 203) ;
     border-radius: 50px; 
@@ -153,7 +199,7 @@ main {
 
 body {
     background-image: url(../CSS/Assets/PortfolioBG.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: repeat;
 }
 
