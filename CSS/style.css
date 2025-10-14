@@ -124,9 +124,9 @@ main {
 }
 
 .footergrid-item img { 
-    max-width: 100px; 
+    max-width: 70px; 
     height: auto;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 @media (max-width: 600px) {
