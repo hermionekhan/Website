@@ -124,6 +124,7 @@ main {
 }
 
 .footergrid-item img { 
+    flex: 0 0 auto;
     max-width: 70px; 
     height: auto;
     border-radius: 30px;
