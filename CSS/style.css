@@ -58,17 +58,17 @@ main {
 #logo {
     display: flex;
     justify-content: flex-start;
-    max-width: 80%;
-    min-width: 70px;
+    max-width: 30%;
+    min-width: 30px;
     height: auto;
+    padding: 5%;
 }
 
 @media (max-width: 600px) {
     #logo {
-        position: static;
         display: flex;
         transform: none;
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
     }
 }
@@ -195,17 +195,16 @@ main {
 }
 
 body {
-    background-image: url(../CSS/Assets/PortfolioBG.jpg);
+    background-color: rgb(7, 7, 7);
     background-size: cover;
     background-repeat: repeat;
 }
 
 @media (max-width: 600px) {
     body {
-    background-image: url(../CSS/Assets/PortfolioBG.jpg);
+    background-color: rgb(7, 7, 7);
     background-size: contain;
     background-repeat: repeat;
-    background-color: #121212;
     }
 }
 /*UNIVERSAL*/
