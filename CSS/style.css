@@ -19,6 +19,11 @@
     src: url(../CSS/Assets/Syne-Medium.ttf);
 }
 
+@font-face {
+    font-family: Sandey;
+    src: url(../CSS/Assets/SandeyMolse.ttf);
+}
+
 /*FONTS*/
 
 /*UNIVERSAL*/
@@ -28,17 +33,16 @@
 }
 
 header {
-    padding: 0px 10%;
+    padding: 5% 5%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 1vw;
 }
 
 @media (max-width: 600px) {
     header {
         display: flex;
-        padding: 20% 10%;
+        padding: 10% 10%;
         flex-direction: column;
         align-items: center;
         gap: 5vh;
@@ -58,17 +62,17 @@ main {
 #logo {
     display: flex;
     justify-content: flex-start;
-    max-width: 30%;
-    min-width: 30px;
+    max-width: 170px;
+    min-width: 150px;
     height: auto;
-    padding: 5%;
 }
 
 @media (max-width: 600px) {
     #logo {
-        display: flex;
-        transform: none;
-        max-width: 50%;
+        display: block;
+        margin: auto;
+        min-width: 150px;
+        max-width: 150px;
         height: auto;
     }
 }
@@ -81,15 +85,16 @@ main {
 }
 
 .footer a {
-    color: rgb(255, 167, 226);
-    font-family: Syne;
-    font-size: 1rem;
+    color: rgb(167, 179, 255);
+    text-shadow: -5px 5px 10px rgb(0, 0, 0);
+    font-family: Sandey;
+    font-size: 1.5rem;
     transition: 0.2s;
     text-decoration: none;
 }
 
 .footer a:hover {
-    text-shadow: 0px 0px 8px rgb(245, 129, 255);
+    text-shadow: 0px 0px 6px rgb(167, 179, 255);
 }
 
 .footergrid-body {
@@ -140,25 +145,25 @@ main {
 }
 
 .contact-container {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(167, 179, 255);
     border-radius: 50px; 
     padding: 10px; 
     display: flex;
     justify-content: flex-start; 
     max-width: fit-content; 
-    max-height: 100%;
-    box-shadow: 0 0px 10px rgb(231, 231, 231);
+    max-height: 10%;
+    box-shadow: 0 0px 10px rgb(167, 179, 255);
 }
 
 @media (max-width: 600px) {
 .contact-container {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(167, 179, 255);
     border-radius: 50px; 
     padding: 10px; 
     display: flex;
     justify-content: space-between; 
     max-width: fit-content; 
-    box-shadow: 0 0px 10px rgb(231, 231, 231);
+    box-shadow: 0 0px 10px rgb(167, 179, 255);
 }
 }
 
@@ -173,12 +178,12 @@ main {
 
 .contact-images li {
     padding: 0px 8px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(167, 179, 255);
     
 }
 
 .contact-images img {
-    width: 50px;
+    width: 40px;
     border-radius: 10px;
     display: block;
     transition: 0.2s;
@@ -220,27 +225,25 @@ body {
 .index-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 80%;
-    gap: 5vw;
-    margin: 0 auto;
+    max-width: 90%;
+    margin: 0 10%;
     text-align: center;
     align-items: center;
-    margin-top: 10%;
+    gap: 5vw;
 }
 
 @media (max-width: 600px) {
     .index-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        gap: 8vh;
-        margin-top: 0%;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        gap: 3vh;
     }
 }
 
 .index-item {
     text-align: center;
-    transition: 0.3s;
+    position: relative;
 }
 
 .index-item a {
@@ -248,7 +251,8 @@ body {
 }
 
 .index-item img {
-    max-width: 50%;
+    max-width: 100%;
+    min-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -256,7 +260,8 @@ body {
 
 @media (max-width: 600px) {
     .index-item img {
-        max-width: 40%;
+        max-width: 50%;
+        min-width: 50%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -264,17 +269,22 @@ body {
 }
 
 .index-item p {
+    position: absolute;
     margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 1rem;
+    top: 50%;
+    left: 50%;
+    color: rgb(106, 143, 245);
+    font-family: Sandey;
+    font-size: 2rem;
     font-style: bold;
+    transform: translate(-50%, -50%);
+    text-shadow: -5px 5px 10px rgb(0, 0, 0);
+    transition: 0.3s;
 }
 
 .index-item :hover {
-    text-shadow: 0px 0px 10px rgb(245, 129, 255);
+    text-shadow: 0px 0px 6px rgb(96, 113, 228);
 }
-
 /*INDEX*/
 
 /*DIGITALART*/
