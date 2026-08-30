@@ -241,6 +241,12 @@ body {
     }
 }
 
+#interactive-gif {
+  width: 300px;  /* Set your fixed width */
+  height: auto; /* Set your fixed height */
+  display: block;
+}
+
 .index-item {
     text-align: center;
     position: relative;
