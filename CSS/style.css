@@ -326,7 +326,13 @@ body {
     color: white;
     font-family: Sandey;
     font-size: 1rem;
-    padding: 5% 5%;
+    padding: 10% 10%;
+}
+
+@media (max-width: 600px) {
+    .key-text {
+        padding: 5% 0%;
+    }
 }
 
 .art-video {
@@ -413,23 +419,6 @@ body {
     }
 }
 
-.landing-top p {
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 1rem;
-}
-
-.landing-top a {
-    color: rgb(255, 255, 255);
-    font-family: Syne;
-    font-size: 1rem;
-    transition: 0.1s;
-}
-
-.landing-top a:hover {
-    text-shadow: 0px 0px 10px rgb(245, 129, 255);
-}
-
 .grid-body {
     display: flex;
     align-items: center;
@@ -460,6 +449,7 @@ body {
     transition: 0.2s;
     padding: 12px 18px;
     border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(64, 64, 64);
 }
 
 .grid-item a {
@@ -470,7 +460,7 @@ body {
 }
 
 .grid-item:hover {
-    box-shadow: 0px 0px 10px rgb(248, 176, 255);
+    box-shadow: 0px 0px 10px rgb(96, 113, 228);
 }
 
 .grid-item img { 
@@ -497,14 +487,14 @@ body {
 .grid-item h3 {
     margin: 0px;
     color: rgb(255, 255, 255);
-    font-family: Syne;
+    font-family: Sandey;
     font-size: 1.2rem;
 }
 
 .grid-item p {
     margin-top: 10px;
     color: rgb(255, 255, 255);
-    font-family: Syne;
+    font-family: Sandey;
     font-size: 0.9rem;
 }
 /*GAMEWORK*/
@@ -575,14 +565,14 @@ body {
 
 .para-container h1 {
     color: rgb(255, 255, 255);
-    font-family: Syne;
+    font-family: Sandey;
     font-size: 1.8rem;
     margin-bottom: 1vh;
 }
 
 .para-container h2 {
     color: rgb(255, 255, 255);
-    font-family: Syne;
+    font-family: Sandey;
     font-size: 1.1rem;
     margin-bottom: 1vh;
 }
@@ -598,6 +588,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding: 5% 0%;
 }
 
 .iframe-container iframe {
@@ -613,7 +604,6 @@ body {
     max-width: 100%;
     box-sizing: border-box;
     align-items: flex-start;
-    gap: 5%;
 }
 
 @media (max-width: 600px) {
@@ -623,7 +613,6 @@ body {
         max-width: 100%;
         box-sizing: border-box;
         align-items: flex-start;
-        gap: 5%;
     }
 }
 
@@ -639,8 +628,8 @@ body {
 }
 
 .end-right {
-    display: inline-block;
-    width: 45%;
+    display: block;
+    align-items: flex-start;
     margin-top: 1vh;
 }
 
@@ -685,39 +674,6 @@ body {
     padding-left: 3%;
     padding-top: 2%;
     padding-bottom: 1%;
-}
-
-.button-container {
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-    margin-top: 1vh;
-    margin-bottom: 3vh;
-}
-
-.button-container img {
-    width: 25px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 3px;
-}
-
-.button-container a {
-    color: rgb(255, 255, 255);
-    font-family: NunitoReg;
-    font-size: 1rem;
-    text-decoration: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgb(245, 129, 255);
-    padding: 2%;
-    transition: 0.2s;
-    margin-right: 3%;
-    display: flex;
-    align-items: center;
-}
-
-.button-container a:hover {
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 /*PHANTOM MATERNAL, DEPTH, KINGS MEADOW*/
 
