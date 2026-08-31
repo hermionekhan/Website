@@ -212,6 +212,11 @@ body {
     background-repeat: repeat;
     }
 }
+
+.h2-style {
+    font-family: Sandey;
+    color: rgb(106, 143, 245);
+}
 /*UNIVERSAL*/
 
 /*INDEX*/
@@ -282,7 +287,6 @@ body {
     color: rgb(106, 143, 245);
     font-family: Sandey;
     font-size: 2rem;
-    font-style: bold;
     transform: translate(-50%, -50%);
     text-shadow: -5px 5px 10px rgb(0, 0, 0);
     transition: 0.3s;
@@ -310,12 +314,61 @@ body {
     }
 }
 
+.key-container {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.key-text {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    color: white;
+    font-family: Sandey;
+    font-size: 1rem;
+    padding: 30px 10px;
+}
+
+.art-video {
+    height: auto;
+    min-width: 50%;
+    max-width: 60%;
+    display: inline-block;
+}
+
+.art-feature {
+    padding: 30px 0px;
+    height: auto;
+    min-width: 50%;
+    max-width: 60%;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .art-feature {
+        padding: 30px 0px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .art-video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 .park-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    padding: 0px 0px;
 }
 
 .park-item img {
@@ -323,20 +376,6 @@ body {
     max-height: 100%;
     display: block;
 }
-
-.park-item p {
-    margin-top: 5%;
-    color: rgb(255, 255, 255);
-    font-family: NunitoReg;
-    font-size: 0.9rem;
-    display: inline-block;
-}
-
-.park-item a {
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
-}
-
 /*DIGITALART*/
 
 /*GAMEWORK*/
