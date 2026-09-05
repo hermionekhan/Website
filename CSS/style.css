@@ -549,7 +549,14 @@ body {
 }
 
 .para-container {
+    width: 60%;
+}
+
+@media (max-width: 600px) {
+    .para-container {
     width: 100%;
+    margin-top: 5vh;
+}
 }
 
 .para-container h1 {
@@ -717,3 +724,80 @@ body {
     margin-bottom: 1vh;  
 }
 /*MARKETING*/
+
+
+.apaper-grid-container {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 20% 80%;
+    gap: 2vw;
+    align-items: start;
+    margin-top: 2vh;
+}
+
+@media (max-width: 600px) {
+    .apaper-grid-container {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        gap: 5%;
+        align-items: start;
+        margin-bottom: 15%;
+    }
+}
+
+.paper-exp {
+    width: 90%;
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.paper-exp p {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: NunitoReg;
+    margin-top: 1vh;
+    font-size: 1rem;
+}
+
+.paper-exp h2 {
+    color: rgb(255, 255, 255);
+    font-family: Sandey;
+    font-size: 1.5rem;
+}
+
+.paper-exp {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.button-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    min-width: 50px;
+    box-sizing: border-box;
+}
+
+.button-container-3 a {
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(64, 64, 64);
+    padding: 8%;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.button-container-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.button-container-3 a:hover {
+    box-shadow: 0px 0px 10px rgb(96, 113, 228);
+}
