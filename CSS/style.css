@@ -50,7 +50,7 @@ header {
 }
 
 main {
-    padding: 0% 5%;
+    padding: 0% 10%;
 }
 
 @media (max-width: 600px) {
@@ -62,7 +62,7 @@ main {
 #logo {
     display: flex;
     align-content: flex-start;
-    max-width: 170px;
+    max-width: 200px;
     min-width: 150px;
     height: auto;
 }
