@@ -263,8 +263,8 @@ body {
 }
 
 .index-item img {
-    max-width: 70%;
-    min-width: 70%;
+    max-width: 60%;
+    min-width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
